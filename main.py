@@ -2,11 +2,11 @@
 # Create 3 userDefine functions for each functionality using the fileName as a parameter.
 # use a condition to stop the menu.
 
-def readInfo(fileName):
+def readInfo(fileName):                # function to read a txt file
     file = open(fileName, "r")
     data = file.read()
     print(data)
-def writeInfo(fileName):
+def writeInfo(fileName):             # used to write stuff in txt file
     file = open(fileName, "w")
     num = int(input("How many lines you wanna enter :"))
     for x in range (num):   # 3
@@ -14,7 +14,7 @@ def writeInfo(fileName):
         file.write(info+"\n")
     print("Written successful !")
     file.close()
-def appendInfo(fileName):
+def appendInfo(fileName):            # used to append the info in txt file instead of writing
     file = open(fileName, "a")
     data = int(input("How many line do you want? :"))
     for x in range (data):

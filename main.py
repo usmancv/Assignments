@@ -1,6 +1,4 @@
-# Create a menu, which asks the user to read,write or append info from txt files.
-# Create 3 userDefine functions for each functionality using the fileName as a parameter.
-# use a condition to stop the menu.
+
 
 def readInfo(fileName):                # function to read a txt file
     file = open(fileName, "r")
@@ -24,16 +22,8 @@ def appendInfo(fileName):            # used to append the info in txt file inste
     file.close()
 
 
-# check if userAge is more than 18.
-
-#   WAY OF THINKING ---> SKILL
 
 
-# ask the user to enter the age
-# check the condition if > 18
-# print the message
-
-#
 
 while True:
     print("Menu :")
@@ -58,5 +48,3 @@ while True:
 
 
 
-# strip()  with string
-# booleans
